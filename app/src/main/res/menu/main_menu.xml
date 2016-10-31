@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/save"
+        android:icon="@drawable/save"
+        android:showAsAction="always"
+        android:title="saveLog" />
+
+    <item
+        android:id="@+id/clear"
+        android:icon="@drawable/clear"
+        android:showAsAction="always"
+        android:title="clearLog" />
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/share"
+        android:showAsAction="always"
+        android:title="share" />
+    <item
+        android:id="@+id/about"
+        android:showAsAction="never"
+        android:title="about" />
+</menu>
