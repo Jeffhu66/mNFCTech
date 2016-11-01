@@ -124,7 +124,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 tv_log.setText("");
                 return true;
             case R.id.share:
-                shareText("分享", "我的主题", tv_log.getText().toString());
+                shareText("share", "MyTheme", tv_log.getText().toString());
                 return true;
             case R.id.about:
                 showAboutDialog();
@@ -138,7 +138,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         final AlertDialog.Builder aboutDialog = new AlertDialog.Builder(this);
         aboutDialog.setTitle("About us:");
         aboutDialog.setView(R.layout.layout_dialog);
-        aboutDialog.setNegativeButton("确定", new DialogInterface.OnClickListener() {
+        aboutDialog.setNegativeButton("sure", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 dialog.dismiss();
