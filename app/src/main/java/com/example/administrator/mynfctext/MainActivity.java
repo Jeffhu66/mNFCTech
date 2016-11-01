@@ -124,7 +124,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 tv_log.setText("");
                 return true;
             case R.id.share:
-                shareText("share", "MyTheme", tv_log.getText().toString());
+                shareText("Share", "MyTheme", tv_log.getText().toString());
                 return true;
             case R.id.about:
                 showAboutDialog();
